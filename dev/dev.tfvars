@@ -1,11 +1,10 @@
-application = "c9demo"
+application = "tfworkspaces"
 environment = "dev"
 location    = "westeurope"
-capacity    = 2
+capacity    = 3
 
 default_tags = {
-  application = "c9demo"
-  environment = "Dev"
+  environment = "dev"
   deployed_by = "terraform"
 }
 
